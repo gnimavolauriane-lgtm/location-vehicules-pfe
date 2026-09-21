@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    
+  }
+
+  .entete-logo {
+    flex-grow: 1; /*indique l'espace que mon logo doit occuper*/
+    margin-left: 80px;
+    
+  }
+
+  .logo {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color: #111;
+    position: absolute;
+    left: 10px;
+    font-size: 35px;
+    position: relative;
+    font-style: italic;/*mettre le texte du logo en italic*/
+    
+    
+  }
+  .entete-logo a{
+    text-decoration: none;
+  }
+  .logo::after{
+    content: "";
+    position: absolute;
+    bottom: -8px;/*pour faire descendre le trait à ma guise*/
+    width: 65%;
+    text-align: center;
+    left: 0;
+    height: 7px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    text-decoration: none;
+  }
+
+  .entete-lien {
+    display: flex;
+    justify-content: flex-start; /* Aligner les éléments de navigation à gauche */
+    align-items: center;
+    width: 70%; /* Déplacer les éléments */
+  }
+   
+  .entete-lien ul {
+    list-style: none;/* enlever le point de chaque élément*/
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+    gap: 50px; /*met de l'espace entre chaque élément*/
+  }
+  
+  .entete-lien a {
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative;
+    transition: color 0.3s, text-decoration-color 0.3s, text-decoration-thickness 0.3s;
+   
+  }
+  .entete-lien a:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 50%;
+    height: 2px;
+    background-color: #5A189A;
+    transform: translateX(-50%) /*pour centrer le soulignement*/;
+   
+  }
+
+  .entete-icone {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    
+  }
+  .entete-icone a{
+    text-decoration: none;
+  }
+
+  .entete-icone .icone {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #111;
+    margin-top:30px ;
+    position: relative;
+
+  }
+
+  .entete-icone .icone i {
+    margin-right: 20px;
+  }
+  .icone:hover{
+    color: #5A189A;
+  }
+  .cadran {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -200px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff; 
+    color: #111;
+    z-index: 1000;
+}
+.icone:hover .cadran{
+    display: block;
+}
+.cadran p{
+color: #111;
+display: block;
+font-size: 13px;
+}
+.cadran p span{
+    color: brown;
+}
+/* Menu hamburger */
+.menu-amburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 100;
+  margin-left: -550px;
+  margin-top: 10px;
+}
+.menu-amburger:hover{
+  background-color: #4a385c;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+/* Gérer l'affichage du menu hamburger */
+@media (max-width: 768px) {
+  .entete-lien {
+    display: none;
+    flex-direction: column; /* Empiler les liens sur les petits écrans */
+    gap: 10px; /* Pour ajouter un peu d'espace entre les liens */
+    width: 100%; 
+    padding: 20px;
+    background-color: white; /* couleur pour les liens*/
+    position: absolute;
+    top: 80px; /* Positionner le menu juste en dessous de l'en-tête */
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+
+  /* Pour afficher le menu lorsque l'on clique sur le menu hamburger */
+  .entete-lien.active {
+    display: flex;
+  }
+
+  /*  Pour changer l'apparence du bouton hamburger lorsqu'il est activé */
+  .menu-amburger.active i {
+    transform: rotate(90deg); /* Rotation du hamburger pour l'icône croisée */
+  }
+  
+  /* pour cacher le logo et les icônes sur les petits écrans */
+  .entete-logo {
+    flex-grow: 0;
+    margin-left: 80px; /* dimunier l'espace à gauche */
+  }
+  .logo::after{
+    width: 100%;
+  }
+  .entete-icone {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  }
+
+  /* Changer la taille du menu hamburger */
+  .menu-amburger {
+    display: block;
+  }
+}
+
+/* afficher le menu pour les écrans plus grands*/
+@media (min-width: 769px) {
+  .menu-amburger {
+    display: none;
+  }
+}

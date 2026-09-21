@@ -1,0 +1,530 @@
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+.image {
+    width: 100%;
+    height: 470px;         
+    overflow: hidden;      
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    position: relative;
+    top: -300px;  
+}
+
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+.form-input {
+    width: 18%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+.liste{
+    display: none; /* Masqué par défaut */
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    width: 200px;
+    right: 5px;
+    margin-top: 5px;
+    padding:0 50px 50px 50px;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.liste li{
+    padding: 8px;
+    cursor:pointer;
+    list-style: none;
+}
+.liste li:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: 30px;
+}
+
+.caseCocher div{
+    margin-bottom: 20px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 445px;
+    z-index: 1000;
+}
+
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.image img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+}
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    background-image: 8px 8px 8px 8px #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+.slogan h3{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    margin-left: -100px;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+
+.form-input:hover{
+    border:2px solid #ad9c9c ;
+}
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.formulaire {
+  display: flex;              /* aligne les champs horizontalement */
+  gap: 10px;                  /* espace entre chaque champ */
+  align-items: flex-start;    /* aligne au top pour que les messages ne décalent pas */
+  flex-wrap: wrap;            /* si écran trop petit, champs passent à la ligne */
+}
+
+
+.champ-formulaire {
+  display: flex;
+  flex-direction: column;    
+  width: 18%;                 
+}
+
+.form-input {
+width: 100%;                
+box-sizing: border-box;
+padding: 20px;
+margin: 0;
+box-sizing: border-box;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-image: 8px 8px 8px 8px rgba(0 0 0 0.1);
+outline: none;
+}
+
+/* message d’erreur sous le champ */
+.error-message {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 4px;
+  min-height: 18px; /* réserve un espace même si pas de message */
+}
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: -20px;
+}
+
+.caseCocher div{
+    margin-bottom: 5px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 465px;
+    z-index: 1000;
+}
+
+.lien1-contenu {
+    position: relative;
+    margin-top: 50px; /* espace entre l'image et cette section */
+    font-size: 14px;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.lien1 {
+    position: relative;
+    cursor: pointer;
+    color: inherit;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.lien1-texte {
+    position: relative;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.partenariats-sgcar {
+    background-color: #f9f9ff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.partenariats-sgcar .intro {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #5A189A;
+    margin-bottom: 15px;
+}
+
+.partenariats-sgcar p {
+    margin-bottom: 15px;
+}
+
+.btn-container {
+    margin-top: 25px;
+}
+
+.btn-contact {
+    display: inline-block;
+    background-color:#5A189A;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(30, 136, 229, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-contact:hover {
+    background-color: #664586;
+    transform: translateY(-2px);
+}
+
+.partenaire-ouzoud {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-left: 5px solid #5A189A;
+}
+
+.partenaire-texte {
+    flex: 1;
+    min-width: 300px;
+}
+
+.partenaire-texte h3 {
+    font-size: 1.5rem;
+    color: #5A189A;
+    margin-bottom: 15px;
+}
+
+.partenaire-texte p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.partenaire-texte .lien-site a {
+    font-weight: bold;
+    color: #5A189A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.partenaire-texte .lien-site a:hover {
+    color: #664586;
+    text-decoration: underline;
+}
+
+.partenaire-slider {
+  flex: 1;
+  position: relative;
+  max-width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(30, 136, 229, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.partenaire-slider:hover {
+  box-shadow: 0 8px 40px rgba(30, 136, 229, 0.4);
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
+.slider-track img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 12px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(30, 136, 229, 0.7);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  user-select: none;
+}
+
+.partenaire-slider:hover .slider-btn {
+  opacity: 1;
+}
+
+.slider-btn.prev {
+  left: 12px;
+}
+
+.slider-btn.next {
+  right: 12px;
+}
+
+.slider-btn:focus {
+  outline: 2px solid #1565c0;
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .partenaire-section {
+    flex-direction: column;
+  }
+  .partenaire-slider {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+

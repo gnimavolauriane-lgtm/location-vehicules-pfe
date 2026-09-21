@@ -1,0 +1,508 @@
+/* ---- Style général ---- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+/* ---- Cadran récapitulatif ---- */
+.recap-section {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 20px auto;
+    width: 90%;
+   border: 2px solid #d1d5db;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 15px;
+}
+
+.cadran-recap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Pour qu’il prenne toute la largeur du bloc parent */
+}
+
+.cadran-recap p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+#modifierBtn {
+    padding: 8px 16px;
+    background-color:#495057 ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#modifierBtn:hover {
+    background-color:#6c5d7c ;
+}
+
+/* ---- Formulaire modification ---- */
+
+.form-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+   
+}
+
+.zone-fermeture {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 99;
+}
+
+.texte-fermer {
+    top:120px;
+    left: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.croix-fermer {
+    position: absolute;
+    left: 1060px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 99;
+    transition: background-color 0.3s ease;
+}
+
+#formulaire-container form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px; /* ← Augmenté ici */
+    background-color: #f0f4ff;
+    border-radius: 10px;
+    border: 1px solid #ccd;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+#formulaire-container input,
+#formulaire-container select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+}
+
+#formulaire-container button[type="submit"] {
+    grid-column: 1 / -1;
+    padding: 10px;
+    background-color: #5b387e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#formulaire-container button[type="submit"]:hover {
+    background-color: #6c5d7c;
+}
+
+/* ---- Résultats véhicules ---- */
+.container-vehicules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.carte-vehicule {
+    flex: 0 0 32%; /* Environ 3 par ligne avec un petit espace entre */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.carte-vehicule img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.carte-vehicule h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.carte-vehicule p {
+    margin: 5px 0 15px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+.ligne-prix-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 15px;
+}
+
+.prix {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #111;
+}
+
+.btn-payer {
+    background-color: #5A189A;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-payer:hover{
+    background-color: #5b387e;
+}
+
+.btn-detail {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.btn-detail:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+.aucun-resultat {
+    text-align: center;
+    font-size: 18px;
+    color: #a33;
+    margin-top: 40px;
+}
+
+
+.champ-formulaire {
+    display: flex;
+    flex-direction: column;
+}
+.erreur-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 10px;
+    padding: 0 20px;
+    width: 90%;
+}
+
+.titre-gauche {
+    font-size: 28px;
+    color: #333;
+    margin-left: -60px;
+}
+
+.nb-resultats {
+    font-size: 12px;
+    font-weight: bold;
+    color: #5A189A;
+}
+
+
+.footer {
+    background-color: #f5f5f5; /* couleur de fond douce */
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 60px;
+    border-top: 4px solid #5A189A;
+}
+
+
+/* Fond sombre semi-transparent + flex centré déjà dans l'inline style de #modalPaiement */
+
+.modal-form {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 360px;
+    max-width: 90vw;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    animation: fadeInScale 0.3s ease forwards;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.85);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #5A189A; /* violet */
+    letter-spacing: 0.05em;
+}
+
+.modal-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.modal-form input[type="email"],
+.modal-form input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 22px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.modal-form input[type="email"]:focus,
+.modal-form input[type="password"]:focus {
+    outline: none;
+    border-color: #5A189A;
+    box-shadow: 0 0 8px rgba(90, 24, 154, 0.5);
+}
+
+.modal-form input::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+}
+
+.forgot-password a {
+    color: #5A189A;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #3f126f;
+    text-decoration: underline;
+}
+
+.modal-form button[type="submit"] {
+    background: linear-gradient(45deg, #6e25ba, #4a137f);
+    color: white;
+    font-weight: 700;
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 5px 15px rgba(74, 19, 127, 0.4);
+}
+
+.modal-form button[type="submit"]:hover {
+    background: linear-gradient(45deg, #4a137f, #2c0953);
+    box-shadow: 0 7px 20px rgba(44, 9, 83, 0.6);
+}
+
+/* Bouton fermer */
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+    color: #5A189A;
+}
+
+.erreur-msg {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.champ-formulaire {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.erreur-champ {
+    color: #d60000;
+    font-size: 0.9em;
+    margin-top:-10px;
+    display: block;
+}
+.modal-form-reset {
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px; 
+    max-width: 90vw;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.modal-form-reset h2 {
+    margin: 10px auto;
+    font-size: 22px;
+    color: #4a137f;
+}
+
+.modal-form-reset p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.modal-form-reset form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-form-reset input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.modal-form-reset button[type="submit"] {
+    padding: 10px;
+    background-color: #5A189A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.modal-form-reset button[type="submit"]:hover {
+    background-color: #5b387e;
+}
+
+.modal-form-reset a#annuler-reset {
+    color: #5A189A;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.modal-form-reset a#annuler-reset:hover {
+    text-decoration: underline;
+}
+
+.modal-form,
+.modal-form-reset {
+    display: none;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 380px;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    flex-direction: column;
+}
+
+.modal-form.active,
+.modal-form-reset.active {
+    display: flex;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+    color: #000;
+}

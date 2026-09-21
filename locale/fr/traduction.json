@@ -1,0 +1,304 @@
+{
+  "header": {
+    "menu": {
+      "home": "ACCUEIL",
+      "vehicles": "NOS VÉHICULES",
+      "booking": "NOS PARTENAIRES",
+      "blog": "BLOG",
+      "deals": "BONS PLANS",
+      "contact": "CONTACTEZ-NOUS!"
+    },
+    "info": {
+      "location": "Nous sommes situés au centre ville de Béni Mellal à l'adresse : <span>84 Av Hassan II, 1° ét.</span>",
+      "hours": "Notre service est joignable du lundi au samedi, de 9h à 18h."
+    }
+  },
+  
+  "footer": {
+    "subscribe": {
+      "title": "Recevez nos offres spéciales",
+      "placeholder": "Votre email",
+      "button": "S'INSCRIRE"
+    },
+    "social": {
+      "title": "Suivez-nous sur les réseaux sociaux"
+    },
+    "about": {
+      "title": "À propos de SG CAR",
+      "link1": "À propos de nous",
+      "link2": "Contactez-nous",
+      "link3": "FAQ"
+    },
+    "links": {
+      "title": "Liens utiles",
+      "link1": "Politique de confidentialité",
+      "link2": "Conditions d’utilisation",
+      "link3": "Politique des cookies",
+      "link4": "Plan du site"
+    },
+    "destinations": {
+      "title": "Destinations populaires",
+      "link1": "Cascade d'Ouzoud",
+      "link2": "Ain Asserdoun",
+      "link3": "Medina de Béni Mellal",
+      "link4": "Jardin de la Ville de Béni Mellal",
+      "link5": "Vallée des Roses"
+    },
+    "services": {
+      "title": "Nouveaux services",
+      "link1": "Programmes de Fidélité",
+      "link2": "Nos Bons Plans",
+      "link3": "Nos Voitures de Locations"
+    },
+    "payment": {
+      "title": "Moyens de paiement acceptés et 100% sécurisés"
+    },
+    "slogan":"Avec SG CAR, Réservez et Profitez de votre véhicule sans aucune inquiétude !",
+    
+
+    "copyright":
+      "© 2025 SG Car | Tous droits réservés"
+    
+  },
+
+  "accueil": {
+    "slogan": {
+      "title": "Louez votre voiture en toute simplicité chez SG CAR"
+    },
+    "liste": {
+      "link1": "Citadine",
+      "link2": "Compacte",
+      "link3": "SUV",
+      "link4": "Premium",
+      "link5": "Utilitaire",
+      "link6": "Minibus"
+    },
+    "caseCocher": {
+      "case1": "Conducteur ayant le permis",
+      "case2": "Conducteur âgé de 21 ans et plus"
+    },
+    "section-location": {
+      "title": "Location de voitures chez SG CAR"
+    },
+    "image": {
+      "title": "PROGRAMME DE FIDÉLISATION",
+      "texte": "Gagnez des points à chaque location pour bénéficier de plusieurs avantages gratuits",
+      "title1": "NEWSLETTER",
+      "texte1": "Recevez en exclusivité toutes nos nouvelles offres et promotions",
+      "title2": "LOCATION COMMERCIALE",
+      "texte2": "Offre de location mensuelle spéciale entreprise sans engagements aux prix les plus bas!"
+    },
+    "voiture": {
+      "title": "Découvrez notre collection de voitures",
+      "bouton": "LOUEZ CETTE CATEGORIE",
+      "bouton1": "LOUEZ CETTE CATEGORIE",
+      "bouton2": "LOUEZ CETTE CATEGORIE",
+      "bouton3": "LOUEZ CETTE CATEGORIE",
+      "bouton4": "LOUEZ CETTE CATEGORIE",
+      "bouton5": "LOUEZ CETTE CATEGORIE"
+    },
+    "vehicule": {
+      "title": "Citadine",
+      "texte": "Idéales pour se faufiler en ville mais aussi aptes à prendre la route sans trop de bagages",
+      "title1": "Compact",
+      "texte1": "Parfaites pour se rendre en ville mais aussi aptes à prendre la route sans trop de bagages",
+      "title2": "SUV 4x4",
+      "texte2": "Cross-Over ou Tout Terrain, idéaux pour sortir des sentiers battus en alliant le plaisir",
+      "title3": "Premium",
+      "texte3": "Vivez une expérience unique avec la gamme PREMIUM ! Conçue spécialement...",
+      "title4": "Utilitaire",
+      "texte4": "Une gamme de véhicules utilitaires pour vous accompagner dans vos besoins ...",
+      "title5": "Minibus",
+      "texte5": "Indispensables pour des voyages en famille, ne négligez pas l'espace et le confort pour..."
+    },
+    "louer": {
+      "title": "Louez votre voiture en trois étapes avec SG CAR",
+      "titre1": "1- Faites le choix de votre voiture",
+      "titre2": "2- Envoyez-nous vos coordonnées",
+      "titre3": "3- Votre voiture livrée"
+    },
+    "container": {
+      "title": "Prix Location Voiture à Beni Mellal",
+      "titre1": "Catégorie de Voiture",
+      "titre2": "Basse Saison",
+      "titre3": "Haute Saison",
+      "texte1": "Citadine et Compacte",
+      "texte2": "54dh - 81dh / jour",
+      "texte3": "72dh - 92dh / jour",
+      "texte4": "SUV & 4x4",
+      "texte5": "58dh - 91dh / jour",
+      "texte6": "82dh - 110dh / jour",
+      "texte7": "Familiale",
+      "texte8": "54dh - 82dh / jour",
+      "texte9": "83dh - 157dh / jour",
+      "texte10": "Premium",
+      "texte11": "150dh - 277dh / jour",
+      "texte12": "168dh - 250dh / jour",
+      "texte13": "Utilitaires",
+      "texte14": "144dh - 245dh / jour",
+      "texte15": "460dh - 540dh / jour",
+      "texte16": "Les prix peuvent varier en fonction des saisons et des disponibilités des véhicules."
+    },
+    "info": {
+      "title1": "Quel est le prix pour une location de voiture à Béni Mellal pendant une semaine ?",
+      "texte1": "Pour une location d'une semaine, comptez entre 118dh et 344dh pour une voiture Citadine, et entre 225dh et 581dh pour une voiture Familiale.",
+      "title2": "Quel est le prix pour une location de voiture à Béni Mellal pendant deux semaines ?",
+      "texte2": "En moyenne, entre 250dh et 590dh pour une voiture Citadine pour deux semaines. Les tarifs sont similaires dans toutes les autres villes du Maroc.",
+      "title3": "Quel est le prix pour une location de voiture à Béni Mellal pendant un mois ?",
+      "texte3": "Pour un mois de location, il faut compter entre 750dh et 2.900dh pour n'importe quel véhicule, peu importe la ville.",
+      "title4": "Combien coûte une location de voiture citadine / compacte à Béni Mellal ?",
+      "texte4": "Une location de voiture de catégorie Citadine / Compacte à Béni Mellal coûte en moyenne 37 dh par jour selon la ville et l'agence de départ.",
+      "title5": "Combien coûte une location de voiture familiale à Béni Mellal ?",
+      "texte5": "Une location de voiture familiale à Béni Mellal coûte en moyenne autour de 46 dh par jour.",
+      "title6": "Combien coûte une location de voiture SUV / 4x4 à Béni Mellal ?",
+      "texte6": "Une location de voiture SUV / 4x4 à Béni Mellal coûte 49 dh par jour en moyenne.",
+      "title7": "Combien coûte une location de voiture de luxe à Béni Mellal ?",
+      "texte7": "Une location de voiture de catégorie luxe à Béni Mellal coûte en moyenne 92 dh par jour selon le modèle."
+    },
+    "faq": {
+      "title": "FAQ - Location voiture Béni Mellal pas cher",
+      "title1": "De quels documents ai-je besoin pour louer une voiture de location à Béni Mellal ?",
+      "texte": "Pour la prise en charge de votre voiture de location à Béni Mellal vous devrez vous présenter en agence avec les documents suivants :",
+      "link1": "Pièce d’identité valide (passeport ou carte d’identité)",
+      "link2": "Permis de conduire en cours de validité du titulaire du contrat et de chaque conducteur additionnel",
+      "link3": "Carte de crédit (et non carte de débit) pour la caution du véhicule",
+      "texte_attention": "Attention, seuls les documents originaux sont acceptés pour louer une voiture.",
+      "title2": "Quel âge minimum faut-il avoir pour louer une voiture à Béni Mellal ?",
+      "texte1": "Pour louer une voiture à Béni Mellal, le conducteur doit avoir au moins 21 ans et 12 mois d’ancienneté de permis de conduire.",
+      "texte2": "Les conducteurs de moins de 23 ans doivent obligatoirement souscrire à l’Assurance Jeune Conducteur.",
+      "texte3": "Enfin, pour certains véhicules, l’âge minimum est de 25 ans.",
+      "title3": "Quel est le montant de la caution d'une voiture à Béni Mellal ?",
+      "texte4": "Avant la prise en charge de votre voiture de location au Maroc, vous devrez vous acquitter de la caution.",
+      "texte5": "La somme est bloquée sur votre carte de crédit pendant la durée de la location du véhicule au Maroc, puis automatiquement débloquée à sa restitution en agence.",
+      "texte6": "Montant de la caution :",
+      "link4": "Voitures Catégorie Citadines : à partir de 1000 DH",
+      "link5": "Voitures Catégorie SUV : à partir de 2000 DH",
+      "link6": "Voitures Catégorie Premium : à partir de 3.400 DH",
+      "link7": "Voitures Catégorie Familiale et Minibus : à partir de 2000 DH",
+      "texte8": "Assurez-vous d’avoir un plafond bancaire suffisant pour que la caution passe sur votre carte de crédit.",
+      "texte9": "Dans le cas où votre plafond bancaire serait insuffisant, vous avez la possibilité de souscrire à nos services de Rachat de Franchise Total ou Partiel qui réduisent la caution de moitié ou annulent le besoin de laisser une caution et votre responsabilité financière en cas de sinistre.",
+      "title4": "Quelles sont les conditions d'annulation d'une location de voiture à Béni Mellal ?",
+      "texte10": "Si votre demande d’annulation de votre location de voiture à Béni Mellal intervient 48H avant la date de prise en charge du véhicule de location, des frais de dossier de 240 MAD/TTC s’appliqueront. Le remboursement sera effectué sur la carte de crédit utilisée pour le règlement de la réservation.",
+      "texte11": "Si votre demande d’annulation est transmise moins de 48 heures précédant la date de début de la location au Maroc, aucun remboursement ne sera dû. Aucun remboursement ne sera dû pour toute demande d’annulation faite après la date et l’heure prévue de prise en charge du véhicule dans une de nos agences au Maroc. Les conditions d’annulation varient selon les agences.",
+      "texte12": "Pour toute annulation d’une réservation de location de voiture chez SG CAR effectuée auprès d’un comparateur ou acteur tiers, les démarches se feront uniquement auprès de cet intermédiaire.",
+      "title5": "Quelle est la limite de vitesse à Béni Mellal?",
+      "texte13": "La limite de vitesse à Béni Mellal est de : 90-100 km/h sur les routes normales",
+      "title6": "Dans quel état sont les routes à Béni Mellal?",
+      "texte14": "Les routes sont généralement bien entretenues à Béni Mellal.",
+      "texte15": "Si vous prévoyez de vous aventurer dans les montagnes, optez plutôt pour la location d’un SUV ou d’un 4x4 pour plus de confort.",
+      "title7": "Est-il possible de faire une location voiture à Béni Mellal sans caution ?",
+      "texte16": "Pour récupérer une voiture de location à Béni Mellal vous devez obligatoirement vous acquitter de la caution du véhicule qui varie selon sa catégorie.",
+      "texte17": "Pour une location de voiture au Maroc sans caution, vous pouvez souscrire à notre service de rachat de franchise qui annule la somme à payer en cas d'accident."
+    },
+    "decouverte": {
+      "title": "Découvrir la région Beni Mellal-Kenifra",
+      "title1": "Ain Asserdoun-Le joyau naturel de Beni Mellal",
+      "texte": "Ain Asserdoun est un site touristique qui offre aux visiteurs une vue panoramique imprenable sur toute la ville de Beni Mellal et les plaines environnantes.",
+      "title2": "Kasbat Tadla-Voyage au coeur de l'histoire",
+      "texte1": "Plongez dans les délices exotiques de Kasbat Tadla, une ville fortifiée, séduite par ses remparts en pisé et sa majestueuse kasbah qui témoigne d’un riche passé.",
+      "title3": "Taghzirt et le Moyen Atlas-L'évasion grandeur nature",
+      "texte2": "Envie d’un grand bol d’air pur ? Le village de Taghzirt offre des paysages à couper le souffle : montagnes verdoyantes, forêts de cèdres et de pins."
+    },
+    "propos": {
+      "title": "Pourquoi choisir SG CAR ?",
+      "bouton": "Découvrez nos engagements"
+    }
+  },
+
+  
+  "slogan": {
+    "title": "Louez votre voiture en toute simplicité chez SG CAR"
+  },
+  "form": {
+    "dateReception": "Date de réception",
+    "heure": "Heure",
+    "dateRestitution": "Date de restitution",
+    "modeleVehicule": "Modèle de véhicule",
+    "option1": "Citadine",
+    "option2": "Compacte",
+    "option3": "SUV",
+    "option4": "Premium",
+    "option5": "Utilitaire",
+    "option6": "Minibus",
+    "buttonSearch": "Rechercher",
+    "checkbox1": "Conducteur ayant le permis",
+    "checkbox2": "Conducteur âgé entre 21 ans et plus"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "loyaltyProgram": "Programme de fidélité",
+    "loyaltyTitle": "PROGRAMME DE FIDÉLITÉ SG ASSURANCE"
+  },
+  "advantages": {
+    "title": "5 Avantages du programme SG Assurance",
+    "discount": "Remises Généreuses",
+    "exclusives": "Avantages Exclusifs",
+    "freebies": "Gratuités Offertes",
+    "support": "Assistance Client",
+    "uniqueExperience": "Expérience de location unique"
+  },
+  "howToJoin": {
+    "title": "Comment adhérer à SG CARTE ?",
+    "description": "Afin de bénéficier du programme de fidélité, vous devez tout d'abord effectuer 3 réservations ou accumuler une période de réservation de 60 jours au cours d'une année complète, ultérieurement, notre équipe vous ajoutera dans la liste des membres du programme SG ASSURANCE et vous enverra un email de bienvenue. Par la suite, vous pourrez profiter des avantages de ce programme.",
+    "note": "Cette carte est offerte aux clients qui ont effectué au moins 3 réservations au cours de l'année précédente."
+  },
+  "terms": {
+    "title": "Termes et Conditions",
+    "act1": {
+      "title": "Acte 1 :",
+      "text": "L'adhésion est renouvelée chaque année au 1er janvier, et les membres seront avertis par email où ils trouveront leur statut, le code de réduction et les avantages qui y sont associés."
+    },
+    "act2": {
+      "title": "Acte 2 :",
+      "text": "Chaque nouveau membre sera ajouté à la base de données de Walaa Rewards et sera doté d'un code d'identification unique."
+    },
+    "act3": {
+      "title": "Acte 3 :",
+      "text": "Les avantages associés à chaque statut sont flexibles : l'entreprise peut les modifier, les supprimer ou en ajouter de nouveaux à tout moment."
+    },
+    "act4": {
+      "title": "Acte 4 :",
+      "text": "Les membres du programme Walaa Rewards doivent informer à l’avance l'entreprise par courrier électronique en spécifiant leur code d'identification pour bénéficier de l'un des avantages suivants : conducteur additionnel, accessoire gratuit, surclassement gratuit, et garantie du modèle."
+    },
+    "act5": {
+      "title": "Acte 5 :",
+      "text": "L'entreprise ne garantit pas la disponibilité des accessoires à tout moment. Dans certains cas, l’accessoire désiré peut ne pas être disponible en raison d'une forte demande, d'une rupture de stock ou pour des raisons de maintenance."
+    },
+    "act6": {
+      "title": "Acte 6 :",
+      "text": "Bien que les accessoires de Walaa Rewards soient fournis au client à titre gratuit, le fait de les perdre ou de leur causer un quelconque dommage, matériel ou technique, entraînera la déduction des frais des dommages subis à partir de la caution précédemment déposée."
+    },
+    "act7": {
+      "title": "Acte 7 :",
+      "text": "SG CAR ne fournit aucun programme de fidélité autre que Walaa Rewards ; L’entreprise se détache des programmes de fidélité proposés par le réseau SG CAR national."
+    },
+    "act8": {
+      "title": "Acte 8 :",
+      "text": "Les réservations effectuées à travers les brokers (intermédiaires) ou tout autre site que www.SGCAR.ma ne peuvent pas bénéficier du programme Walaa Rewards."
+    },
+    "act9": {
+      "title": "Acte 9 :",
+      "text": "Les avantages suivants : second conducteur gratuit, accessoire gratuit, surclassement gratuit, et garantie du modèle, peuvent être obtenus une seule fois par an et restent soumis à la disponibilité lors du check-out."
+    },
+    "act10": {
+      "title": "Acte 10 :",
+      "text": "Les remises offertes par Walaa Rewards ne peuvent pas être cumulées avec aucun autre type de réductions."
+    }
+  },
+
+  
+  "cookie": {
+    "message": "Afin de vous fournir un meilleur service et d'am\u00e9liorer l'experience de l'utilisateur sur notre site, nous utilisons des cookies. En continuant d'utiliser ce site, vous acceptez notre utilisation des cookies. (Pour plus d'informations voir <a href='' style='color:#fff;'> Donn\u00e9es personnelles</a>)",
+    "accepter": "Accepter",
+    "refuser": "Refuser"
+  }
+
+
+    
+
+
+
+
+}
+
+

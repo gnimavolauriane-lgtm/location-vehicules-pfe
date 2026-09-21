@@ -1,0 +1,342 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+.image {
+    position: relative;
+    width: 100%;
+    height: 450px; /* ou la hauteur que tu veux pour l'image visible */
+    overflow: hidden;
+}
+
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+.form-input {
+    width: 18%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+.liste{
+    display: none; /* Masqué par défaut */
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    width: 200px;
+    right: 5px;
+    margin-top: 5px;
+    padding:0 50px 50px 50px;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.liste li{
+    padding: 8px;
+    cursor:pointer;
+    list-style: none;
+}
+.liste li:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: 30px;
+}
+
+.caseCocher div{
+    margin-bottom: 20px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 445px;
+    z-index: 1000;
+}
+
+.lien1-contenu {
+    position: relative;
+    margin-top: 80px; /* espace entre l'image et cette section */
+    font-size: 14px;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.lien1 {
+    position: relative;
+    cursor: pointer;
+    color: inherit;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.lien1-texte {
+    position: relative;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+  .categories-slider {    
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    position: relative;
+    margin-top: 10px;
+    z-index: 1000;
+    padding-bottom: 10px;
+  }
+
+  .categories {
+    text-decoration: none;
+    color: #685858;
+    font-size: 1.2rem;
+    font-family: "Roboto",sans-serif;
+  }
+  #compacte{
+    color: #5A189A;
+  }
+
+  #compacte::after{
+    content: "";
+    position: absolute;
+    width: 9%;
+    height: 4px;
+    background-color: #5A189A;
+    bottom: 0;
+    left: 290px;
+  }
+
+  /* trait de déparation*/
+.traitSeparation{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    margin-top: -40px;
+    background-color: #fff;
+}
+
+.ligne-traitSeparation{
+    position: relative;
+    width: 80%;
+    height: 2px;
+    background-color: #f9f9f9;
+}
+
+/* Section voiture*/
+.classeTitre h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto",sans-serif;
+}
+.vehicule-contenu{
+    display: flex;
+    gap: 50px;
+    margin-top: 350px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.vehicule-voiture{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 30%;
+    margin-bottom: 400px;
+    padding: 20px;
+    margin-top: -350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vehicule-info{
+    margin-bottom: 20px;
+    text-align: center;/*pour centrer le contenu à l'intérieure du cadran*/
+}
+
+.voiture-image{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;/*espacement entre l'image et le nom*/
+}
+
+.vehicule-nom{
+    font-size: 0.8rem;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.description{
+    margin-bottom: 20px;
+    color: #111;
+    margin: 5px 0;
+}
+
+.reserver{
+    background-color: #5b387e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.reserver:hover{
+    background-color: #6c5d7c;
+}
+
+.details{
+    width: 100%;
+    background-color: #fff;
+    border-top: 4px solid #111;/*trait pour séparer le lien des autres parties*/
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .lien-detail{
+      text-decoration:none;
+      color: #111;
+      font-weight: bold;
+      font-size: 0.9rem;
+  }
+
+  .lien-detail:hover{
+    text-decoration: underline;
+  }
+
+
+  .offre-contenu{
+    margin-top: -400px;
+}
+.offre-contenu p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    
+}
+
+.offre-soustitre {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 20px 0 10px;
+}

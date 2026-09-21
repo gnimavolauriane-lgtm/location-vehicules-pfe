@@ -1,0 +1,10 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.05); /* 0.3 = 30% d'assombrissement */
+    pointer-events: none; /* Pour que l'utilisateur puisse toujours cliquer sur les éléments en dessous */
+    z-index: 9999; /* Par-dessus tout sans bloquer l'interaction */
+}

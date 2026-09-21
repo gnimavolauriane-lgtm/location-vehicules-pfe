@@ -1,0 +1,76 @@
+
+/* section  description de ain asserdoun*/
+
+.activité{
+    width: 90%;
+    margin: 50px auto;
+    font-family: "Roboto",sans-serif;
+    color: #111;
+    position: relative;
+    margin-top: 100px;
+    line-height: 1.6;
+}
+
+.description-générale p{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.phrase-description p{
+  font-size: 18px;
+  font-style: italic;
+  text-align: left;
+  font-family: "Roboto",sans-serif;
+}
+
+.image-lieu{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-lieu img{
+    width: 50%;
+    margin-left: -500px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.titre-lieu h2{
+    font-size: 24px;
+    color: #5A189A;
+    margin: 30px 0 10px;
+    text-align: left;
+}
+
+.texte-lieu p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.offrir-bouton{
+    background-color:rgba(100, 98, 98, 0.1);
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 15px;
+    color: #555;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.offrir-bouton a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.offrir-bouton:hover{
+    background-color:#9283a0 ;
+}

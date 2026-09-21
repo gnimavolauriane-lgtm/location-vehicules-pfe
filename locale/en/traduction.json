@@ -1,0 +1,307 @@
+{
+  "header": {
+    "menu": {
+      "home": "HOME",
+      "vehicles": "OUR VEHICLES",
+      "booking": "OUR PARTNERS",
+      "blog": "BLOG",
+      "deals": "SPECIAL DEALS",
+      "contact": "CONTACT US!"
+    },
+    "info": {
+      "location": "We are located in downtown Beni Mellal at: <span>84 Av Hassan II, 1st floor</span>",
+      "hours": "Our service is available Monday to Saturday, from 9am to 6pm."
+    }
+  },
+
+
+ 
+  
+  "footer": {
+    "subscribe": {
+      "title": "Get our special offers",
+      "placeholder": "Your email",
+      "button": "SUBSCRIBE"
+    },
+    "social": {
+      "title": "Follow us on social media"
+    },
+    "about": {
+      "title": "About SG CAR",
+      "link1": "About us",
+      "link2": "Contact us",
+      "link3": "FAQ"
+    },
+    "links": {
+      "title": "Useful links",
+      "link1": "Privacy Policy",
+      "link2": "Terms of Use",
+      "link3": "Cookie Policy",
+      "link4": "Site Map"
+    },
+    "destinations": {
+      "title": "Popular destinations",
+      "link1": "Ouzoud Waterfalls",
+      "link2": "Ain Asserdoun",
+      "link3": "Medina of Béni Mellal",
+      "link4": "Béni Mellal City Garden",
+      "link5": "Valley of Roses"
+    },
+    "services": {
+      "title": "New services",
+      "link1": "Loyalty Programs",
+      "link2": "Our Best Deals",
+      "link3": "Rental Cars"
+    },
+    "payment":{
+      "title":"Accepted and 100% secure payment methods"
+    }
+  ,
+    "slogan"
+     :"With SG CAR, book and enjoy your vehicle worry-free!"
+  ,
+    "copyright":
+       "© 2025 SG Car | All rights reserved" 
+  },
+
+  
+  
+  "accueil": {
+    "slogan": {
+      "title": "Rent your car easily with SG CAR"
+    },
+    "liste": {
+      "link1": "City Car",
+      "link2": "Compact",
+      "link3": "SUV",
+      "link4": "Premium",
+      "link5": "Utility",
+      "link6": "Minibus"
+    },
+    "caseCocher": {
+      "case1": "Driver with license",
+      "case2": "Driver aged 21 years or older"
+    },
+    "section-location": {
+      "title": "Car Rental at SG CAR"
+    },
+    "image": {
+      "title": "LOYALTY PROGRAM",
+      "texte": "Earn points with each rental to unlock several free benefits",
+      "title1": "NEWSLETTER",
+      "texte1": "Receive all our new offers and promotions exclusively",
+      "title2": "COMMERCIAL RENTAL",
+      "texte2": "Special monthly business rental offer with no commitments at the lowest prices!"
+    },
+    "voiture": {
+      "title": "Discover our car collection",
+      "bouton": "RENT THIS CATEGORY",
+      "bouton1": "RENT THIS CATEGORY",
+      "bouton2": "RENT THIS CATEGORY",
+      "bouton3": "RENT THIS CATEGORY",
+      "bouton4": "RENT THIS CATEGORY",
+      "bouton5": "RENT THIS CATEGORY"
+    },
+    "vehicule": {
+      "title": "City Car",
+      "texte": "Ideal for navigating the city but also suitable for trips without much luggage",
+      "title1": "Compact",
+      "texte1": "Perfect for city travel but also suitable for trips without too much luggage",
+      "title2": "SUV 4x4",
+      "texte2": "Crossover or Off-Road, ideal for going off the beaten path while enjoying the ride",
+      "title3": "Premium",
+      "texte3": "Live a unique experience with the PREMIUM range! Specially designed...",
+      "title4": "Utility",
+      "texte4": "A range of utility vehicles to support your needs...",
+      "title5": "Minibus",
+      "texte5": "Essential for family trips, don’t neglect space and comfort for..."
+    },
+    "louer": {
+      "title": "Rent your car in three steps with SG CAR",
+      "titre1": "1- Choose your car",
+      "titre2": "2- Send us your details",
+      "titre3": "3- Enjoy your rental!"
+    },
+    
+    "container": {
+      "title": "Car Rental Prices in Beni Mellal",
+      "titre1": "Car Category",
+      "titre2": "Low Season",
+      "titre3": "High Season",
+      "texte1": "City and Compact",
+      "texte2": "54dh - 81dh / day",
+      "texte3": "72dh - 92dh / day",
+      "texte4": "SUV & 4x4",
+      "texte5": "58dh - 91dh / day",
+      "texte6": "82dh - 110dh / day",
+      "texte7": "Family",
+      "texte8": "54dh - 82dh / day",
+      "texte9": "83dh - 157dh / day",
+      "texte10": "Premium",
+      "texte11": "150dh - 277dh / day",
+      "texte12": "168dh - 250dh / day",
+      "texte13": "Utility Vehicles",
+      "texte14": "144dh - 245dh / day",
+      "texte15": "460dh - 540dh / day",
+      "texte16": "Prices may vary depending on the season and vehicle availability."
+    },
+    "info": {
+      "title1": "What is the price for a car rental in Béni Mellal for one week?",
+      "texte1": "For a one-week rental, expect between 118dh and 344dh for a City car, and between 225dh and 581dh for a Family car.",
+      "title2": "What is the price for a car rental in Béni Mellal for two weeks?",
+      "texte2": "On average, between 250dh and 590dh for a City car for two weeks. Prices are similar in other cities in Morocco.",
+      "title3": "What is the price for a car rental in Béni Mellal for one month?",
+      "texte3": "For a one-month rental, expect between 750dh and 2,900dh for any vehicle, regardless of the city.",
+      "title4": "How much does it cost to rent a City / Compact car in Béni Mellal?",
+      "texte4": "A City / Compact car rental in Béni Mellal costs on average 37 dh per day depending on the city and the agency.",
+      "title5": "How much does it cost to rent a Family car in Béni Mellal?",
+      "texte5": "A Family car rental in Béni Mellal costs on average around 46 dh per day.",
+      "title6": "How much does it cost to rent an SUV / 4x4 in Béni Mellal?",
+      "texte6": "An SUV / 4x4 car rental in Béni Mellal costs on average 49 dh per day.",
+      "title7": "How much does it cost to rent a luxury car in Béni Mellal?",
+      "texte7": "A luxury category car rental in Beni Mellal costs on average 92 dh per day depending on the model."
+    },
+    "faq": {
+      "title": "FAQ - Cheap Car Rental in Beni Mellal",
+      "title1": "What documents do I need to rent a car in Béni Mellal?",
+      "texte": "To pick up your rental car in Béni Mellal, you must present the following documents at the agency:",
+       "link":"Only original documents are accepted for renting a car.",
+      "link1": "Valid ID (passport or identity card)",
+      "link2": "Valid driver's license of the contract holder and any additional drivers",
+      "link3": "Credit card (not debit card) for the vehicle deposit",
+      "texte1": "To rent a car in Béni Mellal, the driver must be at least 21 years old with 12 months of driving license experience.",
+      "texte2": "Drivers under 23 years old must subscribe to the Young Driver Insurance.",
+      "texte3": "For certain vehicles, the minimum age is 25 years.",
+      "title2": "What is the minimum age to rent a car in Béni Mellal?",
+      "title3": "What is the deposit amount for a car in Béni Mellal?",
+      "texte4": "Before picking up your rental car in Morocco, you must pay the deposit.",
+      "texte5": "The amount is blocked on your credit card for the duration of the vehicle rental, then automatically released upon return to the agency.",
+      "texte6": "Deposit amount:",
+      "link4": "City Cars: from 1000 DH",
+      "link5": "SUV Cars: from 2000 DH",
+      "link6": "Premium Cars: from 3,400 DH",
+      "link7": "Family and Minibus Cars: from 2000 DH",
+      "texte8": "Make sure you have a sufficient bank limit for the deposit to be accepted on your credit card.",
+      "texte9": "If your bank limit is insufficient, you can subscribe to our Total or Partial Deductible Buyback services that reduce the deposit by half or eliminate the need to leave a deposit and your financial responsibility in case of an accident.",
+      "title4": "What are the cancellation conditions for a car rental in Béni Mellal?",
+      "texte10": "If your cancellation request occurs 48 hours before the scheduled pick-up date, a 240 MAD/TTC processing fee applies. Refunds will be made to the credit card used for booking.",
+      "texte11": "If cancellation is made less than 48 hours before the start of the rental in Morocco, no refund will be due. No refund is due for cancellations after the scheduled pick-up date and time. Cancellation terms are the same across all our rental agencies in Béni Mellal.",
+      "texte12": "For cancellations made through a third party or comparison site, please contact that intermediary directly.",
+      "title5": "What is the speed limit in Béni Mellal?",
+      "texte13": "The speed limit in Béni Mellal is 90-100 km/h on normal roads.",
+      "title6": "What is the condition of the roads in Béni Mellal?",
+      "texte14": "The roads in Béni Mellal are generally well maintained.",
+      "texte15": "If you plan to venture into the mountains, it is better to rent an SUV or 4x4 for more comfort.",
+      "title7": "Is it possible to rent a car in Béni Mellal without a deposit?",
+      "texte16": "To pick up a rental car in Béni Mellal, you must pay a deposit that varies according to the vehicle category.",
+      "texte17": "For car rentals in Morocco without a deposit, you can subscribe to our deductible buyback service that cancels the amount to pay in case of an accident."
+    },
+    "decouverte": {
+      "title": "Discover the Beni Mellal-Kenifra Region",
+      "title1": "Ain Asserdoun - The Natural Jewel of Beni Mellal",
+      "texte": "Ain Asserdoun is a tourist site offering visitors an unbeatable panoramic view of the entire city of Beni Mellal and the surrounding plains.",
+      "title2": "Kasbat Tadla - Journey to the Heart of History",
+      "texte1": "Dive into the exotic delights of Kasbat Tadla, a fortified town, charmed by its rammed earth walls and majestic kasbah that testifies to a rich history...",
+      "title3": "Taghzirt and the Middle Atlas - A Grand Natural Escape",
+      "texte2": "Want a breath of fresh air? The village of Taghzirt offers breathtaking landscapes: lush mountains, cedar and pine forests..."
+    },
+    "propos": {
+      "title": "Why choose SG CAR?",
+      "bouton": "Discover our commitments"
+    }
+  },
+
+  "slogan": {
+    "title": "Rent your car easily with SG CAR"
+  },
+  "form": {
+    "dateReception": "Reception Date",
+    "heure": "Time",
+    "dateRestitution": "Return Date",
+    "modeleVehicule": "Vehicle Model",
+    "option1": "City Car",
+    "option2": "Compact",
+    "option3": "SUV",
+    "option4": "Premium",
+    "option5": "Utility",
+    "option6": "Minibus",
+    "buttonSearch": "Search",
+    "checkbox1": "Driver with a license",
+    "checkbox2": "Driver aged 21 and over"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "loyaltyProgram": "LOYALTY PROGRAM",
+    "loyaltyTitle": "SG ASSURANCE LOYALTY PROGRAM"
+  },
+  "advantages": {
+    "title": "5 Benefits of the SG Assurance Program",
+    "discount": "Generous Discounts",
+    "exclusives": "Exclusive Benefits",
+    "freebies": "Free Offers",
+    "support": "Customer Support",
+    "uniqueExperience": "Unique Rental Experience"
+  },
+  "howToJoin": {
+    "title": "How to join SG CARTE?",
+    "description": "To benefit from the loyalty program, you must first make 3 reservations or accumulate a booking period of 60 days over a full year. Subsequently, our team will add you to the SG ASSURANCE program member list and send you a welcome email. After that, you can enjoy the benefits of this program.",
+    "note": "This card is offered to customers who have made at least 3 bookings in the previous year."
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "act1": {
+      "title": "Act 1:",
+      "text": "Membership is renewed every year on January 1st, and members will be notified by email where they will find their status, discount code, and associated benefits."
+    },
+    "act2": {
+      "title": "Act 2:",
+      "text": "Each new member will be added to the Walaa Rewards database and given a unique identification code."
+    },
+    "act3": {
+      "title": "Act 3:",
+      "text": "The benefits associated with each status are flexible: the company can modify, remove or add new ones at any time."
+    },
+    "act4": {
+      "title": "Act 4:",
+      "text": "Members of the Walaa Rewards program must inform the company in advance by email specifying their identification code to benefit from the following advantages: additional driver, free accessory, free upgrade, and model guarantee."
+    },
+    "act5": {
+      "title": "Act 5:",
+      "text": "The company does not guarantee the availability of accessories at all times. In some cases, the desired accessory may be unavailable due to high demand, stock shortage, or maintenance."
+    },
+    "act6": {
+      "title": "Act 6:",
+      "text": "Although Walaa Rewards accessories are provided free of charge to the client, losing them or causing any damage, material or technical, will result in deducting the damage fees from the previously deposited deposit."
+    },
+    "act7": {
+      "title": "Act 7:",
+      "text": "SG CAR does not provide any loyalty program other than Walaa Rewards; the company disassociates itself from loyalty programs offered by the national SG CAR network."
+    },
+    "act8": {
+      "title": "Act 8:",
+      "text": "Bookings made through brokers (intermediaries) or any other site than www.SGCAR.ma cannot benefit from the Walaa Rewards program."
+    },
+    "act9": {
+      "title": "Act 9:",
+      "text": "The following benefits: free second driver, free accessory, free upgrade, and model guarantee can be obtained only once a year and remain subject to availability at check-out."
+    },
+    "act10": {
+      "title": "Act 10:",
+      "text": "Discounts offered by Walaa Rewards cannot be combined with any other type of discounts."
+    }
+  },
+  
+  "cookie": {
+    "message": "To provide you with better service and improve user experience on our website, we use cookies. By continuing to use this site, you accept our use of cookies. (For more information, see <a href='' style='color:#fff;'>Personal data</a>)",
+    "accepter": "Accept",
+    "refuser": "Decline"
+  }
+
+
+  
+
+
+}
+
+
+

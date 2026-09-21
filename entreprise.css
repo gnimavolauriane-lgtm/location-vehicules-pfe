@@ -1,0 +1,418 @@
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+
+}
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.image img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+}
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+.form-input {
+    width: 18%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+.liste{
+    display: none; /* Masqué par défaut */
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    width: 200px;
+    right: 5px;
+    margin-top: 5px;
+    padding:0 50px 50px 50px;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.liste li{
+    padding: 8px;
+    cursor:pointer;
+    list-style: none;
+}
+.liste li:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: 30px;
+}
+
+.caseCocher div{
+    margin-bottom: 20px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 445px;
+    z-index: 1000;
+}
+
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.image img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+}
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+.form-input {
+    width: 18%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+.liste{
+    display: none; /* Masqué par défaut */
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    width: 200px;
+    right: 5px;
+    margin-top: 5px;
+    padding:0 50px 50px 50px;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.liste li{
+    padding: 8px;
+    cursor:pointer;
+    list-style: none;
+}
+.liste li:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: 30px;
+}
+
+.caseCocher div{
+    margin-bottom: 20px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 445px;
+    z-index: 1000;
+}
+
+.lien1-contenu {
+    position: relative;
+    top: -400px;
+    font-size: 14px;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f9f9f9; 
+   
+   
+}
+
+.lien1 {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.lien1-texte {
+    position: relative;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*section offre*/
+.entreprise-contenu{
+    display: flex;
+    gap: 50px;
+    margin-bottom:  10px;
+    margin-left: 30px;
+    margin-top: -350px;
+    flex-wrap: wrap;/*aller à la ligne */
+}
+
+.entreprise{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 40px;
+    padding: 50px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entreprise-info{
+    margin-bottom: 20px;
+    text-align: center;/*pour centrer le contenu à l'intérieure du cadran*/
+}
+
+.entreprise-image{
+    width: 130%;
+    margin-left: -50px;
+    margin-top: -60px;
+    height: auto;
+    margin-bottom: 10px;/*espacement entre l'image et le nom*/
+}
+
+#offre2{
+   height: 310px;
+   margin-top: -50px;
+}
+
+.entreprise-nom{
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.entreprise-description{
+    margin-bottom: 20px;
+    color: #111;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+.entreprise-details{
+    width: 100%;
+    background-color: #fff;
+    border-top: 4px solid #111;/*trait pour séparer le lien des autres parties*/
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .Elien-detail{
+      text-decoration:none;
+      color: #111;
+      font-weight: bold;
+      font-size: 1rem;
+  }

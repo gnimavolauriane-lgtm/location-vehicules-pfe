@@ -1,0 +1,13 @@
+﻿.env
+vendor/
+.history/
+.lh/
+image/image utilitaire/*.pdf
+image/image utilitaire/*.pdf.html
+image/image utilitaire/*_files/
+image/image utilitaire/Justificatif*
+image/image utilitaire/attestation*
+image/image utilitaire/Bulletin*
+image/image utilitaire/releve*
+image/image utilitaire/trame-projet-professionnel*
+/image/image utilitaire/photo d'identité.jpg

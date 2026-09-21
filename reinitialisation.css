@@ -1,0 +1,112 @@
+/* Container centré avec fond doux */
+.connexion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.connecter {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(102, 126, 234, 0.3);
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.connecter:hover {
+  transform: translateY(-8px);
+}
+
+.connexion1-contenu h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #3a2a78;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 28px;
+}
+
+.connexion1-contenu p {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Champs inputs stylés */
+input[type="password"] {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+input[type="password"]:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.6);
+}
+
+/* Bouton avec effet dégradé et ombre */
+button#btn-reinit {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 700;
+  padding: 14px 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.5);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button#btn-reinit:hover {
+  background: linear-gradient(135deg, #764ba2, #667eea);
+  box-shadow: 0 7px 20px rgba(118, 75, 162, 0.7);
+}
+
+/* Messages d’erreur stylés */
+.messageErreur {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: -16px;
+  margin-bottom: 12px;
+  display: block;
+  font-weight: 600;
+  min-height: 18px;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 450px) {
+  .connecter {
+    padding: 30px 25px;
+  }
+  .connexion1-contenu h2 {
+    font-size: 24px;
+  }
+}
+
+
+.footer {
+    background-color: #f5f5f5; /* couleur de fond douce */
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 60px;
+    border-top: 4px solid #5A189A;
+}

@@ -1,0 +1,753 @@
+
+body {
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.separateur {
+    width: 100%; 
+    height: 5px; /* épaisseur du trait */
+    background-color: #5A189A; /* Couleur du trait */
+     /* Permet au trait de se superposer à l'image */
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.image video {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+    margin-top: 90px;
+}
+.slogan {
+    position: absolute;
+    top: 280px; /* Positionner le texte au centre verticalement de l'image */
+    left: 50%; /* Positionner le texte au centre horizontalement de l'image */
+    transform: translate(-50%, -50%); /* Centrer parfaitement le texte */
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    background-image: 8px 8px 8px 8px #fff;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px 20px 250px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 2; /* Placer la promesse au-dessus de l'image */
+}
+.slogan h2{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+}
+.slogan h3{
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    margin-left: -100px;
+}
+
+/* Conteneur du formulaire */
+.form-contenu {
+    position: absolute;
+    bottom: 30px; /* Placer le formulaire juste en dessous de la promesse */
+    left: 50%;
+    top: 220px;
+    z-index: 3;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 80%; /* La largeur du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style pour les inputs du formulaire */
+
+.form-input:hover{
+    border:2px solid #ad9c9c ;
+}
+.form-input:focus {
+    border-color: #ad9c9c;
+}
+#input1:focus{
+    border:4px solid #ad9c9c;
+}
+#input2:focus{
+    border:4px solid #ad9c9c;
+}
+#input3:focus{
+    border:4px solid #ad9c9c;
+}
+#input4:focus{
+    border:4px solid #ad9c9c;
+}
+#input5:focus{
+    border:4px solid #ad9c9c;
+}
+
+
+.formulaire {
+  display: flex;              /* aligne les champs horizontalement */
+  gap: 10px;                  /* espace entre chaque champ */
+  align-items: flex-start;    /* aligne au top pour que les messages ne décalent pas */
+  flex-wrap: wrap;            /* si écran trop petit, champs passent à la ligne */
+}
+
+
+.champ-formulaire {
+  display: flex;
+  flex-direction: column;    
+  width: 18%;                 
+}
+
+.form-input {
+width: 100%;                
+box-sizing: border-box;
+padding: 20px;
+margin: 0;
+box-sizing: border-box;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-image: 8px 8px 8px 8px rgba(0 0 0 0.1);
+outline: none;
+}
+
+/* message d’erreur sous le champ */
+.error-message {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 4px;
+  min-height: 18px; /* réserve un espace même si pas de message */
+}
+
+.boutton{
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.boutton:hover{
+    background-color: #ad9c9c;
+}
+
+.boutton i {
+    font-size: 25px;
+    color: #111;
+}
+
+
+/* Style pour les cases à cocher*/
+.cocher{
+    margin-top: -215px;
+}
+
+.caseCocher div{
+    margin-bottom: 5px;/* mettre de l'espace entre les cases*/
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;/*pour faire descendre le trait à ma guise*/
+    width: 100%;
+    left: 0;
+    height: 5px;/*epaiiseur du trait*/
+    background-color: #5A189A;
+    top: 445px;
+    z-index: 1000;
+}
+
+
+/* section LOCATION DE VOITURE CHEZ SG CAR*/
+.titre{
+    text-align: center;
+    font-family: "Archivo Black",sans-serif;
+    font-size: 1.8rem;
+    color: #111;
+    margin-top: -340px;
+    margin-bottom: 20px;
+}
+
+.image-location{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.image-contenu{
+    text-align: center;
+    width:  100%;
+    display: block;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1000;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    
+}
+
+.petite-image{
+    width: 80%;
+    height: auto;
+    z-index: 1000;
+   
+}
+
+.image-titre{
+    font-size: 15px;
+    margin-top: 10px;
+    z-index: 1000;
+    
+}
+.image-texte{
+    font-family: "Beubas Neue",sans-serif;
+    font-size: 13px;
+    width: 80%;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #5A189A;
+    margin:10px auto;
+    z-index: 1000;
+    
+}
+
+/* Section de présentation des véhicules */
+.section-vehicules {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    margin-top:-10px;
+    
+}
+
+/* Titre de la section */
+.voiture-titre {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    text-align: left;
+    font-family: "Roboto",sans-serif;
+}
+
+/* Conteneur principal du slider */
+.slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Conteneur des véhicules */
+.slider {
+    display: flex;
+    overflow: hidden; /* Masque les véhicules en dehors de la vue */
+    width: 100%;
+    transition: transform 0.5s ease, width 0.5s ease;
+}
+
+/* Style pour chaque véhicule */
+
+
+.vehicule {
+    width: 25%; /* 4 véhicules visibles au début */
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+/* Image des véhicules */
+.vehicule img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#vehicule1{
+    margin-top: 12px;
+    
+}
+
+#vehicule2{
+    margin-top: 12px;
+   
+}
+#vehicule3{
+    margin-top: 12px;
+
+}
+#vehicule4{
+    margin-top: 10px;
+    
+}
+#vehicule5{
+ margin-top: 12px;
+
+}
+#vehicule6{
+    margin-top: 15px;
+
+}
+
+/* Cacher les véhicules 5 et 6 au début */
+.vehicule.hidden {
+    display: none;
+}
+
+/* Boutons de navigation */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5A189A;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 100;
+    font-size: 1.5rem;
+}
+
+.slider-btn.left {
+    left: -10px;
+}
+
+.slider-btn.right {
+    right: -10px;
+}
+
+.vehicule h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.vehicule-description {
+    margin: 10px 0;
+    width: 80%;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #5A189A;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #664586;
+}
+
+/* section LOUEZ VOTRE VOITURE AVEC SG CAR*/
+.louer-titre{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: "Roboto",sans-serif;
+}
+
+.louer-location{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.louer-contenu{
+    text-align: center;
+    max-width: 30%;
+    display: block;
+    padding-bottom: 20px;
+    
+}
+
+.louer-image{
+    width: 80%;
+    height: auto;
+   
+}
+
+.louer-titre1{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Archivo Black",sans-serif;
+    
+}
+
+/* section decouvrez beni mellal*/
+.decouverte-titre{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    
+    font-family: "Roboto",sans-serif;
+}
+
+.decouverte-location{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.decouverte-contenu{
+    text-align: center;
+    max-width: 30%;
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.decouverte-image{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.decouverte-titre1 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.decouverte-description {
+    margin: 5px 5px;
+    width: 85%;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 0;
+    margin-left: 30px;
+}
+
+/* Titre Section */
+.prix-titre {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-family: "Roboto",sans-serif;   
+
+}
+
+/* Tableau des prix */
+.prix-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.prix-table th, .prix-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.prix-table th {
+    background-color: #5a189a;
+    color: #fff;
+}
+
+.prix-table td {
+    background-color: #fff;
+}
+
+/* Note en bas du tableau */
+.prix-note {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Section Informations */
+.infos-location {
+    margin-top: 30px;
+}
+
+.info {
+    
+    margin-bottom: 20px;
+
+}
+
+.info h3 {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-titre{
+    margin-top: 40px;
+}
+
+
+.faq-section{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 70px 20px;
+    margin: 40px auto;
+    width: 100%;
+    
+}
+
+
+.faq-question {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    text-align: left;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 4px solid #5A189A;
+
+}
+
+.faq-question h3{
+    margin-left: 20px;
+    font-family: 'Roboto',sans-serif;
+}
+.icone-faq{
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+.faq-reponse{
+    display: none;
+    padding: 30px 0;
+    font-size: 0.85rem;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+ .faq-reponse p{
+    margin-left:20px ;
+ }
+ .faq-reponse li{
+    margin-left: 20px;
+ }
+.faq-reponse.open{
+    display: block;
+}
+
+
+
+.avantage-offre {
+    width: 97%;
+    margin: 320px auto;
+    margin-top: 300px;
+   
+}
+
+.avantage-titre{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: -300px;
+    margin-left: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.avantage-liste {
+    text-align: left;
+}
+
+.avantage-liste ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.avantage-liste li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.offre-contenu {
+    width: 97%;
+    margin: 50px auto;
+}
+
+.offre-titre {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: -300px;
+    margin-left: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.offre-texte {
+    font-size: 16px;
+    color: #555;
+    width: 100%;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.offre-texte p {
+    margin-bottom: 15px;
+}
+
+.offre-contenu1 {
+    width: 97%;
+    margin: 320px auto;
+}
+
+.offre-titre1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: -300px;
+    margin-left: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.offre-texte1 {
+    font-size: 16px;
+    color: #555;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.offre-texte p {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .prix-table th, .prix-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .titre {
+        font-size: 1.6rem;
+    }
+}
+
+/* Section a propos de nous*/
+.propos{
+    text-align: center;
+    margin: 10px;
+}
+.propos-titre{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: "Roboto",sans-serif;
+}
+
+.propos-contenu{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.propos-image{
+    width: 90%;
+    height: auto;
+    transform: translateY(30%);
+    margin-top: -150px ;
+    
+}
+
+.propos-slogan{
+    position: relative;
+    width: 100%;
+    
+}
+.propos-slogan1{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left:    50px;
+    line-height: 1;
+   width: 30%;
+   z-index: 1000;
+   font-family: "Archivo Black",sans-serif;
+}
+.propos-bouton{
+    position: absolute;
+    top: 80%;
+    right: 70px;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #664586;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+
+}
+
+.propos-bouton:hover{
+    background-color: #5a189a;
+}
+
+
+

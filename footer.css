@@ -1,0 +1,260 @@
+body{
+    background-color:rgba(232, 228, 221, 0.916) ;
+    text-align: center;
+}
+/* Style général du footer */
+.footer {
+    font-family: Arial, sans-serif;
+}
+
+/* Section en haut du footer : Offres spéciales et réseaux sociaux */
+.footer-top {
+    display: flex;
+    justify-content: space-between;  /* Espace entre la section et les icônes */
+    align-items: flex-start;  /* Alignement au début (vers le haut) */
+    padding: 0 5%;
+    margin-bottom: 30px;
+   
+}
+
+/* Section Recevez nos offres spéciales */
+.offers-section {
+    flex: 1;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    color: #061141;
+}
+
+.offers-section h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;  /* Pour aligner l'icône avec le texte */
+    margin-bottom: 10px; /* Espacement entre le titre et le contenu */
+}
+
+.offers-section h3 i {
+    font-size: 2rem;  /* Taille de l'icône */
+    margin-right: 10px;  /* Espace entre l'icône et le texte */
+}
+
+/* Formulaire d'abonnement aligné sur une seule ligne */
+.subscribe-form {
+    display: flex;
+    align-items: center;  /* Aligner les éléments sur la même ligne */
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+    margin-right: 10px; /* Espacement entre les champs */
+}
+
+.subscribe-form button {
+    padding: 10px 30px;
+    background: color #5A189A;
+    color:#fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(184, 198, 203, 0.916), 0 2px 2px rgba(239, 182, 10, 0.934);
+   
+   
+    
+}
+
+/* Section Réseaux sociaux */
+.social-section {
+    flex: 1;
+    margin-left: 200px;
+    margin-top: 5px;
+    color:#061141;
+}
+
+.social-section h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;  /* Pour aligner l'icône avec le texte */
+    margin-bottom: 10px; /* Espacement entre le titre et les icônes */
+}
+
+.social-section h3 i {
+    font-size: 2rem;  /* Taille de l'icône */
+    margin-right: 10px;  /* Espace entre l'icône et le texte */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: #061141;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid #061141;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #061141;
+    color: rgba(232, 228, 221, 0.916);
+}
+
+.social-icons a::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: #061141;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.social-icons a:hover::after{
+    content: attr();
+    opacity: 1;
+    visibility: visible;
+
+}
+/* Contenu principal du footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    color: #061141;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-section:last-child{
+    margin-right: 0;
+}
+
+.footer-section h3 {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #224d3b;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+    color: #46c18e;  /* Couleur survol des liens */
+}
+
+/* Section du bas */
+.footer-bottom {
+    text-align: center;
+    background-color: #224d3b;
+    color: #fff;
+    padding: 25px 0;
+    font-size: 1.1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Style responsive pour les petits écrans */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 0 10%;
+    }
+
+    .footer-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers-section, .social-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+} 
+
+* Section Moyens de paiement acceptés */
+.payment-section {
+    background-color: #2F6A4F; /* Couleur de fond identique à celle du footer */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.payment-section h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #061141;
+}
+
+/* Conteneur des images des moyens de paiement */
+.payment-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacement entre les images */
+    flex-wrap: wrap; /* Permet aux images de se réorganiser si nécessaire sur les petits écrans */
+}
+
+/* Taille des images des moyens de paiement */
+.payment-image {
+    max-width: 50px; /* Ajuste la taille des images selon tes besoins */
+    height: auto;
+}
+
+/* Responsive : ajustement pour les petits écrans */
+@media (max-width: 768px) {
+    .payment-images {
+        flex-direction: column;
+    }
+
+    .payment-image {
+        margin-bottom: 10px; /* Espacement vertical entre les images */
+    }
+}
